@@ -408,19 +408,35 @@ figure {
   border-radius: 0px 0px 4px 4px;
 }
 
-.icon-inst {
-  display: block;
+.button-card-style {
+  padding: 0;
+  background: none;
+  border-style: none;
+
   width: 44px;
   height: 44px;
-  padding: 0;
-  border: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+}
+.button-card-style:hover {
+  background-color: #2196f3;
+  border-radius: 2em;
 }
 
 .icon-inst-svg {
   width: 44px;
   height: 44px;
-  fill: aqua;
-  display: block;
+
+  fill: #afb1b8;
+  cursor: pointer;
+}
+
+.icon-inst-svg:hover {
+  fill: #ffffff;
 }
 
 .team-members-position:nth-child(-n + 5) {
