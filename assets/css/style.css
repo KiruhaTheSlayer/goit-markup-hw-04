@@ -443,6 +443,8 @@ figure {
   align-items: center;
 
   cursor: pointer;
+
+  border-radius: 2em;
 }
 .button-card-style:hover {
   background-color: #2196f3;
@@ -452,6 +454,8 @@ figure {
 .icon-inst-svg {
   width: 44px;
   height: 44px;
+
+  border-radius: 2em;
 
   fill: #afb1b8;
   cursor: pointer;
@@ -649,7 +653,8 @@ footer {
 .footer-social-list li:nth-child(4n) {
   margin-right: 0;
 }
-.footer-list-item:nth-child(1):hover {
+
+/* .footer-list-item:nth-child(1):hover {
   background-color: #2196f3;
   border-radius: 30px;
   width: 44px;
@@ -672,6 +677,20 @@ footer {
   border-radius: 30px;
   width: 44px;
   height: 44px;
+} */
+
+.footer-logo-style {
+  width: 44px;
+  height: 44px;
+
+  border-radius: 2em;
+
+  fill: #ffffff;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.footer-logo-style:hover {
+  background-color: #2196f3;
 }
 
 /* .footer-list-item {
