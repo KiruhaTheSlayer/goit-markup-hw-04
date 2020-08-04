@@ -115,12 +115,15 @@ figure {
 
 /* contacts */
 .our-contacts {
-  display: flex;
   align-items: center;
+  display: flex;
   margin-left: auto;
 }
 
 .email--style {
+  display: flex;
+  align-items: center;
+
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -129,12 +132,23 @@ figure {
   color: #757575;
 }
 
+.mail-icon-style {
+  width: 16px;
+  height: 11px;
+
+  margin-right: 10px;
+}
+
 .email--style:hover,
 .email--style:focus {
   color: #2196f3;
+  fill: #2196f3;
 }
 
 .number--style {
+  display: flex;
+  align-items: center;
+
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -145,9 +159,17 @@ figure {
   color: #757575;
 }
 
+.number-icon-style {
+  width: 10px;
+  height: 15px;
+
+  margin-right: 10px;
+}
+
 .number--style:hover,
 .number--style:focus {
   color: #2196f3;
+  fill: #2196f3;
 }
 
 /* section first */
@@ -473,7 +495,24 @@ figure {
   text-align: center;
 }
 .costomers-list-item {
+  display: flex;
+  cursor: pointer;
+
   width: 170px;
+  height: 90px;
+
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+
+  fill: #afb1b8;
+}
+
+.costomers-list-item:hover {
+  fill: #2196f3;
+  border: 1px solid #2196f3;
 }
 
 .costomers-list-item:nth-child(n + 2) {
@@ -815,6 +854,13 @@ footer {
 
 .projects-dis-items:nth-last-child(-n + 3) {
   margin-bottom: 0;
+}
+
+.projects-dis-items img {
+  max-width: 100%;
+
+  display: block;
+  background-size: cover;
 }
 
 /* --------------------------------------------------------------------------------- */
