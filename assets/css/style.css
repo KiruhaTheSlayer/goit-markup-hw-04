@@ -136,6 +136,7 @@ figure {
   line-height: 16px;
 
   color: #757575;
+  fill: #757575;
 }
 
 .mail-icon-style {
@@ -143,8 +144,6 @@ figure {
   height: 11px;
 
   margin-right: 10px;
-
-  fill: #757575;
 }
 
 .email--style:hover,
@@ -165,6 +164,7 @@ figure {
   margin-left: 30px;
 
   color: #757575;
+  fill: #757575;
 }
 
 .number-icon-style {
@@ -172,8 +172,6 @@ figure {
   height: 15px;
 
   margin-right: 10px;
-
-  fill: #757575;
 }
 
 .number--style:hover,
