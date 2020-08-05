@@ -143,6 +143,8 @@ figure {
   height: 11px;
 
   margin-right: 10px;
+
+  fill: #757575;
 }
 
 .email--style:hover,
@@ -170,6 +172,8 @@ figure {
   height: 15px;
 
   margin-right: 10px;
+
+  fill: #757575;
 }
 
 .number--style:hover,
